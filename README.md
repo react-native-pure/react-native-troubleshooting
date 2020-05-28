@@ -1,4 +1,4 @@
-# react-native-trouableshooting
+# react-native-troubleshooting
 react-native各种问题以及解决方案
 
 ### @react-navigation/native@5 android 手势问题
