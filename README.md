@@ -8,3 +8,5 @@ react-native各种问题以及解决方案
 > 解决方法1：关闭android手势功能
 
 > 解决方法2：缩小手势的触发区域，可以通过设置`gestureResponseDistance`实现
+
+### 慎用`overflow:"hidden"`
