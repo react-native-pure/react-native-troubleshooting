@@ -9,6 +9,13 @@ react-native各种问题以及解决方案
 
 > 解决方法2：缩小手势的触发区域，可以通过设置`gestureResponseDistance`实现
 
+
+### [FlatList靠近屏幕底部的最后一个TextInput无法弹起键盘](https://github.com/facebook/react-native/issues/23916)
+
+问题描述：keyboard dismisses automatically when focused on TextInput inside a Flatlist
+
+> 解决方法：I think that setting FlatList.removeClippedSubviews to false might be a workaround for now.
+
 ### 慎用`overflow:"hidden"`
 
 ### React-Native Textinput Android键盘无法弹起问题
@@ -31,4 +38,4 @@ react-native各种问题以及解决方案
  ### React-Native FastImage Android 页面透传问题
  解决办法：
  新增属性 tintColor={(isFocused || Platform.OS === 'ios') ? undefined : '#F5F6F7'}
-        
+
